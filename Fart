@@ -1,0 +1,8 @@
+import time
+
+def fart():
+    print('FART\n')
+    time.sleep(0.2)
+    fart()
+
+fart()
